@@ -1,7 +1,7 @@
 // ===== WHATSAPP CONFIG =====
 // Replace this number with your real WhatsApp number (include country code, no + or spaces)
 const WHATSAPP_NUMBER = '919167185555';
-const WA_MESSAGE = encodeURIComponent('Hi, I want to start my fitness journey with TransformX!');
+const WA_MESSAGE = encodeURIComponent('Hi, I want to start my fitness journey with SR Fitness!');
 const WA_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WA_MESSAGE}`;
 
 // ===== DATA =====
@@ -38,96 +38,104 @@ const testimonialData = [
 
 const blogData = [
   {
-    tag: 'NUTRITION',
-    title: 'Top 5 Supplements for Muscle Gain in 2024',
-    excerpt: 'Discover the science-backed supplements that can accelerate your muscle growth when combined with proper training.',
+    tag: 'पोषण',
+    title: 'मसल्स बनाने के लिए 5 जरूरी सप्लीमेंट्स',
+    author: 'Neha Khandekar',
+    excerpt: 'जिम जाना शुरू किया लेकिन मसल्स नहीं बन रहे? ये 5 सप्लीमेंट्स सच में काम करते हैं — बस सही तरीके से लो।',
     img: 'https://picsum.photos/seed/blog1/600/400',
     content: `
-      <h2>Top 5 Supplements for Muscle Gain in 2024</h2>
-      <p>Building muscle requires more than just hitting the gym. The right supplements can bridge the gap between good and great results. Here are the top 5 that actually work:</p>
-      <h3>1. Creatine Monohydrate</h3>
-      <p>Creatine is the most researched supplement in sports science. It increases phosphocreatine stores in muscles, allowing you to produce more ATP energy during high-intensity exercise. Take 3–5g daily.</p>
-      <h3>2. Whey Protein</h3>
-      <p>A fast-digesting complete protein source that delivers all essential amino acids. Ideal post-workout to kickstart muscle protein synthesis. Aim for 0.8–1g of protein per pound of bodyweight daily.</p>
-      <h3>3. Caffeine</h3>
-      <p>A proven performance enhancer that improves strength, endurance, and focus. 200–400mg pre-workout is effective for most people.</p>
-      <h3>4. Beta-Alanine</h3>
-      <p>Reduces muscle fatigue by buffering acid buildup during exercise. Best for high-rep training. Expect a harmless tingling sensation (paresthesia) when you first take it.</p>
-      <h3>5. Vitamin D3 + Magnesium</h3>
-      <p>Most Indians are deficient in both. Vitamin D supports testosterone production and bone health. Magnesium improves sleep quality and muscle recovery.</p>
-      <h3>Final Word</h3>
-      <p>Supplements are just that — supplementary. Nail your nutrition, training, and sleep first. Then layer in these to optimise results.</p>
+      <h2>मसल्स बनाने के लिए 5 जरूरी सप्लीमेंट्स</h2>
+      <p>देखो, मैं खुद काफी समय तक जिम जाती रही बिना कोई खास नतीजे के। फिर समझ आया कि सिर्फ वर्कआउट काफी नहीं — खाने के साथ-साथ सही सप्लीमेंट्स भी जरूरी हैं। ये वो 5 चीज़ें हैं जो सच में फर्क डालती हैं:</p>
+      <h3>1. क्रिएटिन मोनोहाइड्रेट</h3>
+      <p>ये सबसे ज्यादा रिसर्च किया गया सप्लीमेंट है। इससे एक्सरसाइज के दौरान ज्यादा एनर्जी मिलती है और वज़न उठाने की ताकत बढ़ती है। रोज़ 3–5 ग्राम लो, बस इतना काफी है।</p>
+      <h3>2. व्हे प्रोटीन</h3>
+      <p>वर्कआउट के बाद मसल्स को प्रोटीन चाहिए — और व्हे सबसे तेज़ absorb होता है। अगर खाने से पूरा प्रोटीन नहीं मिल रहा तो एक scoop काफी काम आता है।</p>
+      <h3>3. कैफीन</h3>
+      <p>सुबह की चाय-कॉफी वाला कैफीन! वर्कआउट से पहले एक कप ब्लैक कॉफी लो — एनर्जी और फोकस दोनों बढ़ेगा। बस रात को मत लो नींद खराब होगी।</p>
+      <h3>4. बीटा-अलानिन</h3>
+      <p>जब एक्सरसाइज के दौरान जलन होती है ना — वो muscle fatigue है। बीटा-अलानिन उसे कम करता है। शुरू में थोड़ी झनझनाहट होगी शरीर में — घबराना नहीं, नॉर्मल है।</p>
+      <h3>5. विटामिन D3 + मैग्नीशियम</h3>
+      <p>हम भारतीयों में इन दोनों की कमी बहुत आम है। विटामिन D3 हड्डियां और hormones ठीक रखता है, मैग्नीशियम नींद और recovery बेहतर करता है। ये दोनों लेना शुरू करो — फर्क खुद महसूस होगा।</p>
+      <h3>आखिरी बात</h3>
+      <p>सप्लीमेंट्स जादू नहीं हैं — ये सिर्फ "सपोर्ट" हैं। पहले खाना, नींद और ट्रेनिंग ठीक करो, फिर ये चीज़ें add करो।</p>
+      <p class="blog-author">— <strong>Neha Khandekar</strong></p>
     `
   },
   {
-    tag: 'FAT LOSS',
-    title: 'How to Lose Fat Without Losing Muscle Mass',
-    excerpt: 'The biggest fear during a cut — losing your hard-earned muscle. Here is the exact strategy to avoid it.',
+    tag: 'फैट लॉस',
+    title: 'मसल्स खोए बिना चर्बी कैसे घटाएं',
+    author: 'Neha Khandekar',
+    excerpt: 'डाइट पर जाते ही डर लगता है कि मेहनत से बनाई मसल्स न चली जाए। यहाँ है वो तरीका जो सच में काम करता है।',
     img: 'https://picsum.photos/seed/blog2/600/400',
     content: `
-      <h2>How to Lose Fat Without Losing Muscle Mass</h2>
-      <p>Muscle preservation during a caloric deficit is the holy grail of body recomposition. Here's a proven framework:</p>
-      <h3>1. Eat at a Moderate Deficit</h3>
-      <p>Aim for a 300–500 calorie deficit per day. Anything more aggressive accelerates muscle loss along with fat. Slow and steady wins this race.</p>
-      <h3>2. Keep Protein High</h3>
-      <p>Eat 1–1.2g of protein per pound of bodyweight. High protein intake is the single most effective strategy to prevent muscle breakdown in a deficit.</p>
-      <h3>3. Don't Stop Lifting Heavy</h3>
-      <p>Your body keeps muscle when it has a reason to. Resistance training signals the body to preserve muscle mass even when calories are low. Don't switch to light weights and high reps.</p>
-      <h3>4. Minimize Cardio Volume</h3>
-      <p>Excessive cardio elevates cortisol, which is catabolic (muscle-breaking). 2–3 sessions of 30-minute moderate cardio per week is sufficient.</p>
-      <h3>5. Prioritize Sleep</h3>
-      <p>Growth hormone — your primary muscle-preserving hormone — is released during deep sleep. Aim for 7–9 hours. Poor sleep will sabotage every other effort.</p>
+      <h2>मसल्स खोए बिना चर्बी कैसे घटाएं</h2>
+      <p>ये सवाल मुझसे हर कोई पूछता है — "Neha didi, weight kam karna hai but muscles nahi khoni." सच बताऊं तो ये बिल्कुल मुमकिन है, बस सही तरीका चाहिए।</p>
+      <h3>1. ज्यादा कम मत खाओ</h3>
+      <p>बहुत कम कैलोरी खाने से fat के साथ muscle भी जाने लगती है। रोज़ सिर्फ 300–500 कैलोरी कम करो — धीरे-धीरे लेकिन पक्का नतीजा मिलेगा।</p>
+      <h3>2. प्रोटीन ज्यादा खाओ</h3>
+      <p>डाइट में प्रोटीन सबसे ज्यादा ज़रूरी है — दाल, अंडे, पनीर, चिकन जो भी हो। प्रोटीन ज्यादा होगा तो muscle टूटेगी नहीं।</p>
+      <h3>3. वज़न उठाना बंद मत करो</h3>
+      <p>लोग सोचते हैं डाइट पर हैं तो बस cardio करो। गलत! वेट ट्रेनिंग जारी रखो — शरीर को reason दो muscle रखने का।</p>
+      <h3>4. बहुत ज्यादा cardio मत करो</h3>
+      <p>हफ्ते में 2–3 बार 30 मिनट की walk या light cardio काफी है। ज्यादा करने से body stress में आ जाती है और muscle जाने लगती है।</p>
+      <h3>5. नींद पूरी लो</h3>
+      <p>रात को 7–8 घंटे की नींद में body खुद को repair करती है। नींद कम हो तो चाहे कितनी भी मेहनत करो — नतीजा नहीं मिलेगा।</p>
+      <p class="blog-author">— <strong>Neha Khandekar</strong></p>
     `
   },
   {
-    tag: 'MINDSET',
-    title: '5 Mental Habits That Will Transform Your Body',
-    excerpt: 'Physical transformation is 80% mental. Master these habits and the physical results will follow automatically.',
+    tag: 'मानसिकता',
+    title: '5 आदतें जो आपकी ज़िंदगी बदल देंगी',
+    author: 'Neha Khandekar',
+    excerpt: 'ट्रांसफॉर्मेशन 80% दिमाग की लड़ाई है। ये 5 आदतें अपना लो — बाकी सब अपने आप होगा।',
     img: 'https://picsum.photos/seed/blog3/600/400',
     content: `
-      <h2>5 Mental Habits That Will Transform Your Body</h2>
-      <p>Most people fail not because of lack of knowledge, but because of mindset. Here are 5 habits that separate those who transform from those who try:</p>
-      <h3>1. Identity-Based Goals</h3>
-      <p>Instead of "I want to lose 10 kg," say "I am someone who exercises daily." When your identity changes, your habits follow automatically.</p>
-      <h3>2. Track Everything</h3>
-      <p>What gets measured gets managed. Track your food, workouts, and sleep. Data removes guesswork and keeps you accountable.</p>
-      <h3>3. Embrace Discomfort</h3>
-      <p>Progress lives outside comfort zones. Learn to distinguish between "this is hard" and "this is harmful." The burn in your muscles is growth, not damage.</p>
-      <h3>4. Celebrate Small Wins</h3>
-      <p>Did you hit the gym today? Win. Chose a salad over a samosa? Win. Transformation is built from thousands of small decisions, not one big event.</p>
-      <h3>5. Find Your Why</h3>
-      <p>Superficial motivation fades. Dig deep — is it for your kids? Your health at 60? Finding a deep, emotional reason creates lasting motivation.</p>
+      <h2>5 आदतें जो आपकी ज़िंदगी बदल देंगी</h2>
+      <p>मैंने देखा है कि जो लोग transform नहीं हो पाते, उनमें knowledge की कमी नहीं होती — mindset की कमी होती है। ये 5 आदतें वो लोग रखते हैं जो सच में बदलते हैं।</p>
+      <h3>1. खुद को अलग नज़र से देखो</h3>
+      <p>"मुझे 10 किलो कम करना है" की जगह सोचो — "मैं एक healthy इंसान हूँ।" जब सोच बदलती है, तो आदतें अपने आप बदलती हैं।</p>
+      <h3>2. हर चीज़ track करो</h3>
+      <p>खाना, पानी, नींद, वर्कआउट — सब लिखो। जो दिखता है वो बदलता है। अंदाज़े से काम नहीं होता।</p>
+      <h3>3. तकलीफ से डरो मत</h3>
+      <p>जिम में जलन होती है — वो growth है। जब लगे "यार नहीं होगा" — तभी सबसे ज्यादा होता है। बस रुको मत।</p>
+      <h3>4. छोटी जीत को celebrate करो</h3>
+      <p>आज जिम गए? जीत। बाहर खाने की जगह घर पर खाया? जीत। ट्रांसफॉर्मेशन हज़ारों छोटे decisions से बनती है।</p>
+      <h3>5. अपना "क्यों" ढूंढो</h3>
+      <p>सिर्फ "अच्छा दिखना है" काफी नहीं होता। क्या बच्चों के लिए fit रहना है? 60 साल में healthy रहना है? जब कारण गहरा होता है, तो motivation खुद आता है।</p>
+      <p class="blog-author">— <strong>Neha Khandekar</strong></p>
     `
   },
   {
-    tag: 'DIET',
-    title: 'The Indian Diet Guide for Weight Loss',
-    excerpt: 'You do not need to eat bland chicken and broccoli to lose weight. Here is how to lose fat with Indian food.',
+    tag: 'डाइट',
+    title: 'घर के खाने से वज़न कैसे घटाएं',
+    author: 'Neha Khandekar',
+    excerpt: 'वज़न घटाने के लिए boiled chicken और broccoli खाना जरूरी नहीं। हमारे घर का खाना ही काफी है — बस थोड़ा समझदारी से।',
     img: 'https://picsum.photos/seed/blog4/600/400',
     content: `
-      <h2>The Indian Diet Guide for Weight Loss</h2>
-      <p>Good news: Indian food can absolutely support fat loss. The key is in the choices and portions, not abandoning your culture.</p>
-      <h3>Best Indian Foods for Fat Loss</h3>
+      <h2>घर के खाने से वज़न कैसे घटाएं</h2>
+      <p>जब मैं पहली बार diet शुरू की थी तो लगा — अब सिर्फ bland खाना खाना पड़ेगा। लेकिन सच में ऐसा नहीं है! हमारा Indian घर का खाना बिल्कुल सही है — बस थोड़ा adjust करना होता है।</p>
+      <h3>ये चीज़ें ज़रूर खाओ</h3>
       <ul>
-        <li>Dal (lentils) — high protein, high fiber, low fat</li>
-        <li>Paneer — protein-rich, keeps you full</li>
-        <li>Chicken/Fish — lean protein sources</li>
-        <li>Roti (1–2) — complex carbs, better than white rice in volume</li>
-        <li>Sabzis with minimal oil — micronutrient dense</li>
-        <li>Curd/Dahi — probiotics + protein</li>
-        <li>Eggs — complete protein, incredibly versatile</li>
+        <li>दाल — सबसे सस्ता और बढ़िया protein source</li>
+        <li>पनीर — भरपेट रखता है, protein भी देता है</li>
+        <li>अंडे — सुबह के नाश्ते में बेस्ट</li>
+        <li>रोटी (1–2) — चावल से बेहतर option</li>
+        <li>दही — gut health और protein दोनों</li>
+        <li>सब्ज़ियाँ — जितनी चाहो उतनी खाओ</li>
       </ul>
-      <h3>Foods to Limit</h3>
+      <h3>इनसे बचो</h3>
       <ul>
-        <li>Maida-based items (naan, paratha, biscuits)</li>
-        <li>Fried snacks (samosa, pakora)</li>
-        <li>Sugary chai with milk (2+ cups/day adds up)</li>
-        <li>White rice in large portions</li>
+        <li>समोसे, पकोड़े, चाट — ये सब बाहर का तला हुआ</li>
+        <li>मैदे की रोटी, नान, बिस्किट</li>
+        <li>दिन में 3–4 बार मीठी चाय</li>
+        <li>रात को बहुत ज्यादा चावल</li>
       </ul>
-      <h3>Sample Day</h3>
-      <p><strong>Breakfast:</strong> 3 egg whites + 1 whole egg omelette with veggies + 1 cup green tea</p>
-      <p><strong>Lunch:</strong> 2 rotis + 1 cup dal + sabzi + curd</p>
-      <p><strong>Dinner:</strong> Grilled chicken or paneer + salad + 1 roti</p>
+      <h3>एक दिन का सैंपल खाना</h3>
+      <p><strong>सुबह:</strong> 2–3 अंडे का ऑमलेट + 1 कप ग्रीन टी या ब्लैक कॉफी</p>
+      <p><strong>दोपहर:</strong> 2 रोटी + दाल + सब्ज़ी + दही</p>
+      <p><strong>रात:</strong> पनीर या चिकन + सलाद + 1 रोटी</p>
+      <p>बस इतना करो — महीने भर में खुद फर्क दिखेगा। कोई fancy diet की ज़रूरत नहीं।</p>
+      <p class="blog-author">— <strong>Neha Khandekar</strong></p>
     `
   },
 ];
@@ -249,7 +257,10 @@ function renderBlog() {
         <p class="blog-tag">${b.tag}</p>
         <h3>${b.title}</h3>
         <p>${b.excerpt}</p>
-        <button class="read-more">Read More →</button>
+        <div class="blog-meta">
+          <span class="blog-author-name">✍️ ${b.author}</span>
+        </div>
+        <button class="read-more">और पढ़ें →</button>
       </div>
     </div>
   `).join('');
