@@ -1,7 +1,7 @@
 // ===== WHATSAPP CONFIG =====
 // Replace this number with your real WhatsApp number (include country code, no + or spaces)
 const WHATSAPP_NUMBER = '919167185555';
-const WA_MESSAGE = encodeURIComponent('Hi, I want to start my fitness journey with SR Fitness!');
+const WA_MESSAGE = encodeURIComponent('नमस्ते! 🙏 मैं SR Fitness के साथ अपनी fitness journey शुरू करना चाहता/चाहती हूँ!');
 const WA_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WA_MESSAGE}`;
 
 // ===== DATA =====
